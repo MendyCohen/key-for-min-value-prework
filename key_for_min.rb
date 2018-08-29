@@ -4,8 +4,6 @@
 def key_for_min_value(name_hash)
   num = 0
  name_hash.each do |key, value|
-   if vlaue.length > value
-     key
-   end
+   if {val = value == nil || value == current?}
  end
 end
